@@ -1,0 +1,45 @@
+body{
+  background-color: #fffaf0;
+}
+.sidebar{
+  height: 95%;
+  top: 2.5%;
+  left: 1%;
+  width: 12%;
+  /*background-image: linear-gradient(45deg, rgba(131,18,165,1) 0%, rgba(9,121,112,1) 49%, rgba(0,55,165,1) 100%);*/
+  background-color: #f5efdf;
+  position: fixed;
+  border-radius: 25px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.sidebar .pic{
+  padding-top: 10%;
+}
+.sidebar .pic .profilepic{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 25px;
+}
+.sidebar .pic .name{
+  padding-top: 10%;
+  text-align: center;
+  color: #696969;
+}
+.buttons{
+  padding-top: 10%;
+  text-align: center;
+}
+.buttons div{
+  padding-top: 15%;
+}
+.buttons button{
+  background: transparent;
+  border-color: transparent;
+  color: #696969;
+  border-radius: 25px;
+  width: 80%;
+}
+.buttons button:hover{
+  background-color: #f2e8cb;
+}
